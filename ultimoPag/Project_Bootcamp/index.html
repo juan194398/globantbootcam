@@ -1,0 +1,112 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project_Bootcamp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <script src="jquery-3.1.0.min.js"></script>
+	<script src="codigo.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <span>
+                    <a href="index.html">
+                        <img src="img/logo1.png" id="logo">
+                    </a>
+                </span>
+                <span>Venta alquiler proyectos</span>
+            </div>
+            <div class="nav">
+                <a>contacto</a>
+                <button class="orange_btn" type="button">Publicar</button>
+                <a href="#">Iniciar sesion</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- CONTENT -->
+        <div class="bg_casa">
+            <div class="container">
+                <h1>Alquiler y venta de apartamentos y casas del Uruguay</h1>
+                <div class="buscador">
+                    <form method="GET" action="buscador.html" id="form_buscar">
+                        <select class="form-control" name="city" required>
+                            <option value="" selected>Ciudad</option>
+                            <option>Montevideo</option>
+                        </select>
+                        <select class="form-control" name="zonaBusqueda" placeholder="Casas, apartamentos" required>
+                            <option>Montevideo</option>
+							<option>Malvin</option>
+							<option>Pocitos</option>
+							<option>Carrasco</option>
+                        </select>
+                        <input class="form-control" name="dir" placeholder="Direccion">
+                        <button class="orange_btn">Buscar</button>
+                    </form>
+                    <div class="font_white">
+                        <span class="fa fa-plus-circle"></span>
+                        <span>Buscar por referencia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="destacados">
+            <div class="barraDestacados">
+                <h2>Busqueda Recomendadas</h2>
+            </div>
+            
+        </div>
+		
+		  <div class="cargoDestacados">
+		       
+		  
+		   </div>
+
+
+    </main>
+
+
+    <footer class="footer">
+        <p>Inmobiliaria Bootcamp S.R.L </p>
+
+        <div id="icons_social_media_footer">
+            <span class="fab fa-facebook"></span>
+            <span class="fab fa-twitter-square"></span>
+            <span class="fa fa-home"></span>
+        </div>
+        <div class="segundoNavegador">
+            <ul>
+                <li>
+                    <a href="index.html">Inicio ></a>
+                </li>
+                <li>
+                    <a href="buscador.html">Ventas ></a>
+                </li>
+                <li>
+                    <a href="paginaTres.html">Alquileres ></a>
+                </li>
+                <li>
+                    <a href="#">Proyectos ></a>
+                </li>
+                <li>
+                    <a href="#">Contactos ></a>
+                </li>
+            </ul>
+        </div>
+        <p>Copyright © 2008 Design</p>
+    </footer>
+
+    
+</body>
+
+</html>
