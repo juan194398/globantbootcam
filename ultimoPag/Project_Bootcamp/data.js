@@ -44,7 +44,7 @@ var propiedades = [];
 function initialize(contenedor){
   unInmueble = new Property(1, 'CasaLopez', 'img', 1 , propertyType.HOUSE, operationType.SALE, detailsTypes.SIZE, {lat:111, lng: 1111}, 'Paraguay2141', true);
   contenedor.push(unInmueble);
-   unInmueble = new Property(2, 'AptoLopez', 'img', 2 , propertyType.HOUSE, operationType.SALE, detailsTypes.SIZE, {lat:111, lng: 1111}, 'Paraguay2141', false);
+   unInmueble = new Property(2, 'AptoLopez', 'img', 2 , propertyType.HOUSE, operationType.SALE, detailsTypes.SIZE, {lat:111, lng: 1111}, 'Paraguay2141', true);
 contenedor.push(unInmueble);
 }
 
