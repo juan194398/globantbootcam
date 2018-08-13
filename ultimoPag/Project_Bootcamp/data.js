@@ -40,17 +40,24 @@ var zone = [
 const propertyType = {HOUSE:'Casa', APTO:'Apto', BUSINESS:'Negocio'};
 const operationType = {SALE:'venta',  RENT:'renta'};
 const detailsTypes = {SIZE: 'metraje'};
-
+var propiedades = [];
 function initialize(contenedor){
-  console.log(contenedor);
-  unInmueble = new Property(1, 'CasaLopez', 'img', 1 , propertyType.HOUSE, operationType.SALE, detailsTypes.SIZE, {lat:111, lng: 1111}, 'Paraguay 2141', true);
+  unInmueble = new Property(1, 'CasaLopez', 'img', 1 , propertyType.HOUSE, operationType.SALE, detailsTypes.SIZE, {lat:111, lng: 1111}, 'Paraguay2141', true);
   contenedor.push(unInmueble);
-
+   unInmueble = new Property(2, 'AptoLopez', 'img', 2 , propertyType.HOUSE, operationType.SALE, detailsTypes.SIZE, {lat:111, lng: 1111}, 'Paraguay2141', false);
+contenedor.push(unInmueble);
 }
 
 
+
 $( document ).ready(function() {
-		var propiedades = [];
+		
 		initialize(propiedades);
-		console.log(propiedades);
 	  });
+
+	  
+	  function getPropiedades(){
+	  return propiedades;
+	
+}
+	  
