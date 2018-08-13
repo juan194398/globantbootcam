@@ -17,7 +17,7 @@ class Property{
 var zone = [
 	{
 		id: 1,
-		name: 'Montevideo'
+		name: 'Centro'
     },
     {
 		id: 2,

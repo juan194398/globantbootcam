@@ -17,6 +17,9 @@ function cargarPropiedadesBusquedaPorZona(zonaBusco, listadoProperty){
 	  $(  '#' + id +'' ).find(".description").append('<h4> ' + name +' </h4>');
 	  $(  '#' + id +'' ).find(".description").append('<h5> ' + ad +' </h5>');
 	  $(  '#' + id +'' ).find(".description").append('<p> ' + details +' </p>');
+	   $(  '#' + id +'' ).on("click",function(){
+		  location.href="paginaTres.html?id=" + id
+	  });
 	  
     }
 	
@@ -40,6 +43,9 @@ function cargarPropiedadesBusquedaPorDir(dirBusco, listadoProperty){
 	  $(  '#' + id +'' ).find(".description").append('<h4> ' + name +' </h4>');
 	  $(  '#' + id +'' ).find(".description").append('<h5> ' + ad +' </h5>');
 	  $(  '#' + id +'' ).find(".description").append('<p> ' + details +' </p>');
+	  $(  '#' + id +'' ).on("click",function(){
+		   location.href="paginaTres.html?id=" + id
+	  });
 	  
     }
 	
@@ -63,7 +69,6 @@ function GetURLParameter(sParam)
     }
 }
 
-
 function filtrarResultado(zonaBusco, dir, pr){
 	   console.log("entro a filtrarResulta");
 	if(zonaBusco.length!=0 && dir.length==0){
@@ -79,7 +84,6 @@ function filtrarResultado(zonaBusco, dir, pr){
 		
 	}
 	}
-	
      else{
 	     cargarPropiedadesBusquedaPorDir(dir, pr);
       }
