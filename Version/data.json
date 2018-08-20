@@ -153,13 +153,13 @@
 	"details": "Apto con vista al mar",
 	"images":[
 	 {
-		"name": "img/6.1.jpg"
+		"name": "img/6_1.jpg"
 		 
 },
 { 
-      "name": "img/6.2.jpg"
+      "name": "img/6_2.jpg"
 }, {
-	  "name": "img/6.3.jpg"
+	  "name": "img/6_3.jpg"
 }],
 	"address": "Rambla Paraguay 1011",
 	"highlighted": true
