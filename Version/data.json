@@ -1,0 +1,172 @@
+{
+	"propertyType":[
+		{
+			"id": "1",
+			"name": "House"
+
+	},
+
+	{
+		"id": "2",
+		"name": "Apartment"
+	},
+	{
+		"id": "3",
+		"name": "Business"
+	}
+
+
+	],
+
+	"operationType":[
+		{
+			"id": "1",
+		    "name": "Sale"
+		},
+		{
+			"id": "2",
+		    "name": "Rent"
+
+		}
+
+	],
+
+ "zone":[
+ 	{
+ 		"id": 1,
+ 		"name": "Centro"
+ },
+ {
+ 		"id": 2,
+ 		"name": "Malvin"
+ },
+ {
+ 	    "id": 3,
+ 		"name": "Pocitos"
+ },
+  {
+ 	    "id": 4,
+ 		"name": "Carrasco"
+ }
+    ],
+ "properties":[
+ 	{
+ 		"id": 1,
+ 		"name": "Cedro Azul",
+ 		"zoneId": 1,
+ 		"propertyTypeId": 1,
+ 		"operationTypeId": 1,
+ 		"details": "A dos cuadras de la playa.",
+ 		"images":[
+ 		 {
+ 			"name": "img/p1_1.jpeg"
+ 			 
+    }, {
+    	    "name": "img/p1_2.jpeg"
+    }, {
+    	    "name": "img/p1_3.jpeg"
+    }],
+ 		"address": "Rodo 4221",
+ 		"highlighted": true
+ },
+ {
+ 	"id": 2,
+ 		"name": "Casa Rodriguez",
+ 		"zoneId": 2,
+ 		"propertyTypeId": 1,
+ 		"operationTypeId": 1,
+ 		"details": "Casa bien amueblada, luminosa. Con vista a la calle.",
+ 		"images":[
+ 		 {
+ 			"name": "img/p2_1.jpeg"
+ 			 
+    }, {
+    	    "name": "img/p2_2.jpeg"
+    }, {
+    	     "name": "img/p2_3.jpeg"
+    }],
+ 		"address": "Chana 412",
+ 		"highlighted": true
+ },
+ {
+ 	"id": 3,
+ 		"name": "Edificio Espiga",
+ 		"zoneId": 2,
+ 		"propertyTypeId": 1,
+ 		"operationTypeId": 1,
+ 		"details": "Salon compartido, con barbacoa techada, sin costo extra.",
+ 		"images":[
+ 		 {
+ 			"name": "img/p3_1.jpeg"
+ 			 
+    }, {
+    	   "name": "img/p3_2.jpeg"
+    }, {
+    	    "name": "img/p3_3.jpeg"
+    }],
+ 		"address": "Chana412",
+ 		"highlighted": true
+ },	{
+	"id": 4,
+	"name": "Edificio Gloria II",
+	"zoneId": 1,
+	"propertyTypeId": 1,
+	"operationTypeId": 1,
+	"details": "A dos cuadras de la playa.",
+	"images":[
+	 {
+		"name": "img/p4_1.jpeg"
+		 
+},{
+        "name": "img/p4_2.jpeg"
+}, {
+	    "name": "img/p4_3.jpeg"
+}, {
+	     "name": "img/p4_4.jpeg"
+}],
+	"address": "Monte Caseros 1440",
+	"highlighted": true
+},	{
+	"id": 5,
+	"name": "El Roble",
+	"zoneId": 1,
+	"propertyTypeId": 1,
+	"operationTypeId": 1,
+	"details": "Salon conmunal con parrillero y aire acondicionado.",
+	"images":[
+	 {
+		"name": "img/p5_1.jpg"
+		 
+},{
+	    "name": "img/p5_2.jpg"
+}, {
+	    "name": "img/p5_3.jpg"
+}],
+	"address": "Obligado 1440",
+	"highlighted": true
+},	{
+	"id": 6,
+	"name": "Cuatro mares",
+	"zoneId": 1,
+	"propertyTypeId": 1,
+	"operationTypeId": 1,
+	"details": "Apto con vista al mar",
+	"images":[
+	 {
+		"name": "img/6.1.jpg"
+		 
+},
+{ 
+      "name": "img/6.2.jpg"
+}, {
+	  "name": "img/6.3.jpg"
+}],
+	"address": "Rambla Paraguay 1011",
+	"highlighted": true
+}
+
+
+
+    ]
+
+}
